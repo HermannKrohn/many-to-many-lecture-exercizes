@@ -48,7 +48,7 @@ united = Airline.new('United Airline')
 spirit = Airline.new('Spirit')
 southwest = Airline.new('Southwest Airlines')
 
-ticket_1 = Ticket.new(united_airline, me)
+ticket_1 = Ticket.new(united, me)
 ticket_2 = Ticket.new(southwest, me)
 
 puts "My Airlines: #{me.airlines}"
